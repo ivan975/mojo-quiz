@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 
 const Questions = () => {
     const questions = useLoaderData().data.questions;
+    console.log(questions);
     return (
         <div>
 

@@ -9,7 +9,7 @@ const Quiz = ({ card }) => {
                 <div className="card-body bg-base-200">
                     <h2 className="card-title">{card.name}</h2>
                     <div className="card-actions justify-end mt-2">
-                        <Link to={``} className="btn btn-primary justify-start">Get Started</Link>
+                        <Link to={`../questions/${card.id}`} className="btn btn-primary justify-start">Get Started</Link>
                     </div>
                 </div>
             </div>
