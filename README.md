@@ -5,8 +5,8 @@
   
 
 # Features:
-1.People can give exams
-2.They can check their result and show their performance graph
-3.People can read various blogs on technology
+1.People can give exams </br>
+2.They can check their result and show their performance graph </br>
+3.People can read various blogs on technology </br>
 
   
