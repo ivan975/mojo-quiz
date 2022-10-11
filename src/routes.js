@@ -28,10 +28,6 @@ export const router = createBrowserRouter([
                 element: <Questions />
             },
             {
-                path: '/question',
-                element: <Question />
-            },
-            {
                 path: '/blogs',
                 element: <Blogs />
             }
