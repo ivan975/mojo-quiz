@@ -6,14 +6,13 @@ const Navbar = () => {
         <div>
             <div className="navbar  bg-base-100 shadow-md">
                 <div className="flex-1">
-                    {/* <img src="../../public/test.png" alt="" /> */}
-                    <Link to='' className="btn btn-ghost normal-case text-3xl font-bold">Mojo Quiz</Link>
+                    <Link to='/' className="btn btn-ghost normal-case text-3xl font-bold">Mojo Quiz</Link>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal p-0">
-                        <li className='font-bold'><Link to=''>Home</Link></li>
-                        <li className='font-bold'><Link to=''>Statistics</Link></li >
-                        <li className='font-bold'><Link to=''>About Us</Link></li >
+                        <li className='font-bold'><Link to='/'>Topic</Link></li>
+                        <li className='font-bold'><Link to='/statistics'>Statistics</Link></li >
+                        <li className='font-bold'><Link to='/blogs'>Blog</Link></li >
                     </ul >
                 </div >
             </div >
