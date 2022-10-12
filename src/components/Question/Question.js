@@ -1,9 +1,10 @@
 import React from 'react';
 import Swal from 'sweetalert2';
-import { CheckCircleIcon } from '@heroicons/react/24/solid'
+import { CheckCircleIcon, EyeIcon } from '@heroicons/react/24/solid'
 
 const Question = ({ qs }) => {
     const { question, options, correctAnswer } = qs;
+
     const handleQuizAnswer = options => {
         if (options === correctAnswer) {
             Swal.fire(
@@ -20,9 +21,15 @@ const Question = ({ qs }) => {
             );
         }
     }
-
+    const showAnswer = (answer) => {
+        Swal.fire(
+            'info',
+            answer
+        )
+    }
     return (
-        < div >
+        < div className='bg-red-300 rounded'>
+            <EyeIcon onClick={() => showAnswer(correctAnswer)} className='h-4 w-4 text-center'></EyeIcon>
             <p>Q.{question}</p>
             {
                 options.map(option =>
