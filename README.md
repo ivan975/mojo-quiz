@@ -8,6 +8,7 @@
 1.People can give exams </br>
 2.They can check their result and show their performance graph </br>
 3.People can read various blogs on technology </br>
+3.People can read various blogs on technology </br>
 
   
 
