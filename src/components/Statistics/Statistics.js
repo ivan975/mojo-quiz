@@ -4,7 +4,6 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 
 const Statistics = () => {
     const totals = useLoaderData().data;
-    // console.log(totals.data[0].total);
     return (
         <div>
             <LineChart width={500} height={400} data={totals}>

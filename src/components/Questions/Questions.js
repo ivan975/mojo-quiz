@@ -17,8 +17,16 @@ const Questions = () => {
                         />
                     )
                 }
+                {/* {
+                    questions.options.map(option =>
+                        <Question
+                            key={option.id}
+                            option={option}
+                        />
+                    )
+                } */}
             </div>
-        </div >
+        </div>
     );
 };
 
